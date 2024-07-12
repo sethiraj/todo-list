@@ -10,7 +10,7 @@ const Home = () => {
     localStorage.setItem("TODO", JSON.stringify(tasks));
   }, [tasks]);
 
-  ## Added Comment
+  ## Added Comment - Modified
   function updateTasks(updatedTasks) {
     setTasks(updatedTasks);
   }
